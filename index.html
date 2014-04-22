@@ -34,6 +34,8 @@
 
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
 
+    <link href = "index.css" rel="stylesheet"/>
+
     <!--
         
         Impress.js doesn't depend on any external stylesheet. Script adds all styles it needs for
@@ -73,7 +75,7 @@
     it can be found later, when `hint` element is being described.
     
 -->
-<body class="impress-not-supported">
+<body>
 
 <!--
     For example this fallback message is only visible when there is `impress-not-supported` class on body.
@@ -149,11 +151,11 @@
         down (4 times) to make it back to its correct size.
         
     -->
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+    <div id="title" class="step" data-x="0" data-y="0" height="600" width>
         <div class="jumbotron">
-          <h1>Joseph Crawley</h1>
-          <p>...</p>
-          <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+          <h1>STATSketball</h1>
+          <h2>Joe Crawley</h2>
+          <h3>4/22/2014</h3>
         </div>
     </div>
 
@@ -165,12 +167,76 @@
         element should be rotated by 90 degrees clockwise.
         
     -->
-    <div id="github" class="step" data-x="0" data-y="3000" data-z="-1500" data-rotate-z="90" data-rotate-y="180" data-rotate-x="90" data-scale="4">
-        Look at my github <a href = "http://github.com/jcrawley">here</a>
+    <div id="project-description" class="step" data-x="0" data-y="3000" data-z="-1500" data-rotate-z="90" data-rotate-y="180" data-rotate-x="90">
+        <div class = "jumbotron">
+            <h1>Project Description</h1>
+            <h2>Key Components</h2>
+                <h2 class = "subtext">Allow users to create reusable teams</h2>
+                <h2 class = "subtext">Keep game stats quickly and comprehensively</h2>
+                <h2 class = "subtext">"Gamecast" gamestats live</h2>
+                <h2 class = "subtext"> Calculate Advanced Basketball Statistics</h2>
+        </div>
     </div>
 
-     <div id="linkdin" class="step" data-x="0" data-y="-3000" data-z="3000" data-rotate-z="180" data-rotate-y="0" data-rotate-x="180" data-scale="6">
-        Look at my github <a href = "http://github.com/jcrawley">here</a>
+     <div id="project-goals" class="step" data-x="0" data-y="-3000" data-z="3000" data-rotate-z="270" data-rotate-y="40" data-rotate-x="180" data-scale="6">
+        <div class = "jumbotron">
+            <h1>Project Goals</h1>
+            <h2>Create a dynamic statkeeping platform</h2>
+            <h2>Creative way of sharing statistics</h2>
+            <h2>Better understanding of advanced statistics</h2>
+        </div>
+    </div>
+
+    <div id="project-justification" class="step" data-x="4000" data-y="4500" data-z="-2000" data-rotate-z="360" data-rotate-y="180" data-rotate-x="720" data-scale="9">
+        <div class = "jumbotron">
+            <h1>Justification</h1>
+            <h2>Avid interest in Statkeeping and basketball</h2>
+            <h2>Both statkeeping and front-end experience</h2>
+            <h2>Use of Interaction Design, Modern Web Apps, Senior Engineering Lab</h2>
+        </div>
+    </div>
+
+    <div id="demonstration" class="step" data-x="0" data-y="4500" data-z="5000" data-rotate-z="360" data-rotate-y="180" data-rotate-x="720" data-scale="4">
+            <div class = "jumbotron">
+                <h1>Challenges</h1>
+                <h2>MetoerJS updates and changes</h2>
+                <h2>Dependencies on a lot of packages</h2>
+                <h2>Lots of space, little packages</h2>
+                <h2>Learning just enough of new technologies</h2>
+            </div>
+    </div>
+
+    <div id="status-update" class="step" data-x="0" data-y="-4500" data-z="5000" data-rotate-z="0" data-rotate-y="180" data-rotate-x="540" data-scale="4">
+            <div class = "jumbotron">
+                <h1>Status Update</h1>
+                <table class="table-bordered" id="status">
+                  <tr>
+                    <td><h2>Accomplishments</h2></td>
+                    <td><h2>Works In Progress</h2></td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <h3>Live Updating Percentages</h3>
+                        <h3>added ChartJS package</h3>
+                    </td>
+
+                    <td>
+                        <h3>Fix player array refresh error</h3>
+                        <h3>Implement Chart into ChartJS</h3>
+                        <h3>Add site navigation</h3>
+                        <h3>hover explanation of stats</h3>
+                    </td>
+
+                  </tr>
+
+
+                </table>
+                                    
+            </div>
+    </div>
+
+    <div id="questions" class="step" data-x="4500" data-y="4590" data-z="-5000" data-rotate-z="0" data-rotate-y="140" data-rotate-x="277" data-scale="1">
+        <h1>Questions?</h1>
     </div>
 
     <!--
@@ -182,9 +248,6 @@
         positioned far away from us (by 3000px).
         
     -->
-    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-        <p>and <b>tiny</b> ideas</p>
-    </div>
 
     <!--
         
@@ -206,22 +269,6 @@
         Only one current step has the `present` class.
         
     -->
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
-    </div>
-
-    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
-    </div>
-
-    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
-        <p>want to know more?</p>
-        <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
-    </div>
-
-    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
-        <p>one more thing...</p>
-    </div>
 
     <!--
         
@@ -235,10 +282,6 @@
         as `data-rotate` (these two are basically aliases).
         
     -->
-    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
-        <span class="footnote">* beat that, prezi ;)</span>
-    </div>
 
     <!--
         
@@ -284,14 +327,6 @@
     Just sayin' ;)
     
 -->
-<div class="hint">
-    <p>Use a spacebar or arrow keys to navigate</p>
-</div>
-<script>
-if ("ontouchstart" in document.documentElement) { 
-    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
-}
-</script>
 
 <!--
     
@@ -310,6 +345,8 @@ if ("ontouchstart" in document.documentElement) {
 -->
 <script src="js/impress.js"></script>
 <script>impress().init();</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 

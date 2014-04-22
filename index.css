@@ -1,0 +1,39 @@
+div{
+	height: 500px;
+	width: 800px;
+
+	text-align: center;
+}
+
+#title{
+	position: relative;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+ul{
+	list-style: none;
+}
+
+.subtext{
+	color: black;
+}
+
+body{
+	backgound-color: #FFFDD0 !important;
+}
+
+.jumbotron{
+	background-color: #0088CE;
+	color: black;
+}
+
+#status{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#status tr, td{
+	margin: 3px;
+	padding: 5px;
+}
+
