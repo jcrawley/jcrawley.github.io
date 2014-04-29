@@ -1,8 +1,29 @@
 div{
-	height: 500px;
+	height: 450px;
 	width: 800px;
 
 	text-align: center;
+}
+
+.banner{
+	width: 100%;
+	height: 30%;
+	background-color: dimgray;
+	color: Khaki;
+}
+
+.problem{
+	font-size: 40px;
+	color: black;
+}
+
+.banner-title{
+	margin-top: auto;
+	margin-bottom: auto;
+	position: relative;
+	top: 30px;
+	font-size: 55px;
+	font-weight: 800;
 }
 
 #title{
@@ -23,8 +44,10 @@ body{
 }
 
 .jumbotron{
-	background-color: #0088CE;
+	background-color: lightblue;
 	color: black;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 
 #status{
@@ -35,5 +58,9 @@ body{
 #status tr, td{
 	margin: 3px;
 	padding: 5px;
+}
+
+.step{
+	bottom: 80px;
 }
 

@@ -35,6 +35,8 @@
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
 
     <link href = "index.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
 
     <!--
         
@@ -151,11 +153,18 @@
         down (4 times) to make it back to its correct size.
         
     -->
+
     <div id="title" class="step" data-x="0" data-y="0" height="600" width>
         <div class="jumbotron">
-          <h1>STATSketball</h1>
-          <h2>Joe Crawley</h2>
-          <h3>4/22/2014</h3>
+          <h1>Connecting Alumni & Students</h1>
+          <h2>By: Chris Wagoner, Chloe Darlington, Jen Bullock, Joe Crawley</h2>
+        </div>
+    </div>
+
+    <div id="research-problem" class="step" data-x="500" data-y="0" data-z="3000" height="600" width>
+        <div class = "banner"><h1 class = 'banner-title'>Research Problem</h1></div>
+        <div class="jumbotron">
+         <h3 class = "problem">Are the current resources available to connect students at Loyola Marymount University with alumni sufficient in providing associations and possible career opportunities?</h3>
         </div>
     </div>
 
@@ -167,76 +176,45 @@
         element should be rotated by 90 degrees clockwise.
         
     -->
-    <div id="project-description" class="step" data-x="0" data-y="3000" data-z="-1500" data-rotate-z="90" data-rotate-y="180" data-rotate-x="90">
-        <div class = "jumbotron">
-            <h1>Project Description</h1>
-            <h2>Key Components</h2>
-                <h2 class = "subtext">Allow users to create reusable teams</h2>
-                <h2 class = "subtext">Keep game stats quickly and comprehensively</h2>
-                <h2 class = "subtext">"Gamecast" gamestats live</h2>
-                <h2 class = "subtext"> Calculate Advanced Basketball Statistics</h2>
+    <div id="Information-Sources" class="step" data-x="0" data-y="3000" data-z="-1500" data-rotate-z="90" data-rotate-y="180" data-rotate-x="90">
+        <div class = "banner"><h1 class = 'banner-title'>Research Problem</h1></div>
+        <div class = "jumbotron">           
+            <h3 class = 'problem'>Primary research:Electronic Survey</h3><br>
+            <h3 class = 'problem'>Sampling method: Judgment Sampling</h3><br>
+            <h3 class = 'problem'>Sample size: 72 started, 60 completed</h3>
         </div>
     </div>
 
-     <div id="project-goals" class="step" data-x="0" data-y="-3000" data-z="3000" data-rotate-z="270" data-rotate-y="40" data-rotate-x="180" data-scale="6">
-        <div class = "jumbotron">
-            <h1>Project Goals</h1>
-            <h2>Create a dynamic statkeeping platform</h2>
-            <h2>Creative way of sharing statistics</h2>
-            <h2>Better understanding of advanced statistics</h2>
+     <div id="age-group" class="step" data-x="0" data-y="-3000" data-z="3000" data-rotate-z="270" data-rotate-y="40" data-rotate-x="180" data-scale="6">
+        <h1> Screener Question Data: Age Group </h1>
+        <img src = 'pics/age-piechart.png'/>
+    </div>
+
+    <div id="class-standing" class="step" data-x="4000" data-y="4500" data-z="-2000" data-rotate-z="360" data-rotate-y="180" data-rotate-x="720" data-scale="9">
+        <h1> Screener Question Data: Class Standing </h1>
+        <img src = 'pics/class-piechart.png'/>
+    </div>
+
+    <div id="first-objective" class="step" data-x="0" data-y="4500" data-z="5000" data-rotate-z="360" data-rotate-y="180" data-rotate-x="720" data-scale="4">
+        <div class = "banner"><h1 class = 'banner-title'>First Information Objective</h1></div>
+        <div class = "jumbotron">           
+            <h3 class = 'problem'>Are students interested in discussing career paths and receiving opportunities through alumni?</h3>
         </div>
     </div>
 
-    <div id="project-justification" class="step" data-x="4000" data-y="4500" data-z="-2000" data-rotate-z="360" data-rotate-y="180" data-rotate-x="720" data-scale="9">
-        <div class = "jumbotron">
-            <h1>Justification</h1>
-            <h2>Avid interest in Statkeeping and basketball</h2>
-            <h2>Both statkeeping and front-end experience</h2>
-            <h2>Use of Interaction Design, Modern Web Apps, Senior Engineering Lab</h2>
-        </div>
+    <div id="table-and-barchart-4" class="step" data-x="4500" data-y="6590" data-z="-5000" data-rotate-z="180" data-rotate-y="140" data-rotate-x="277" data-scale="10">
+        <h1>First Objective Data Results</h1>
+        <table class = "table">
+            <tr>
+                <td><img height = "auto" width = "300px" src = 'pics/frequency-4.png'></td>
+                <td><img height = "auto" width = "300px" src = 'pics/barchart-4.png'></td>
+        </tr>
+        </table>
     </div>
 
-    <div id="demonstration" class="step" data-x="0" data-y="4500" data-z="5000" data-rotate-z="360" data-rotate-y="180" data-rotate-x="720" data-scale="4">
-            <div class = "jumbotron">
-                <h1>Challenges</h1>
-                <h2>MetoerJS updates and changes</h2>
-                <h2>Dependencies on a lot of packages</h2>
-                <h2>Lots of space, little packages</h2>
-                <h2>Learning just enough of new technologies</h2>
-            </div>
-    </div>
-
-    <div id="status-update" class="step" data-x="0" data-y="-4500" data-z="5000" data-rotate-z="0" data-rotate-y="180" data-rotate-x="540" data-scale="4">
-            <div class = "jumbotron">
-                <h1>Status Update</h1>
-                <table class="table-bordered" id="status">
-                  <tr>
-                    <td><h2>Accomplishments</h2></td>
-                    <td><h2>Works In Progress</h2></td>
-                  </tr>
-                  <tr>
-                    <td>
-                        <h3>Live Updating Percentages</h3>
-                        <h3>added ChartJS package</h3>
-                    </td>
-
-                    <td>
-                        <h3>Fix player array refresh error</h3>
-                        <h3>Implement Chart into ChartJS</h3>
-                        <h3>Add site navigation</h3>
-                        <h3>hover explanation of stats</h3>
-                    </td>
-
-                  </tr>
-
-
-                </table>
-                                    
-            </div>
-    </div>
-
-    <div id="questions" class="step" data-x="4500" data-y="4590" data-z="-5000" data-rotate-z="0" data-rotate-y="140" data-rotate-x="277" data-scale="1">
-        <h1>Questions?</h1>
+    <div id="frequency-4" class="step" data-x="4500" data-y="5590" data-z="-5000" data-rotate-z="0" data-rotate-y="140" data-rotate-x="277" data-scale="1">
+        <h1>Frequency Table #4 </h1>
+        <img src = 'pics/frequency-4.png'/>
     </div>
 
     <!--
@@ -298,8 +276,6 @@
         CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
         
     -->
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
-    </div>
 
 </div>
 
@@ -346,7 +322,10 @@
 <script src="js/impress.js"></script>
 <script>impress().init();</script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script src="js/index.js"></script>
+
 
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 
